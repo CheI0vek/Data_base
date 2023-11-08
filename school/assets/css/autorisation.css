@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Patrick Hand', cursive; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Patrick Hand', cursive; */
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/*autorisation*/
+.global_form{
+    display: flex;
+    flex-direction: column;
+    width: 400px; 
+}
+
+input{
+    margin: 10px 0;
+    padding: 8px;
+    border: unset;
+    border-bottom: 2px solid #a43b0a; 
+    outline: none;
+}
+
+select{
+    margin: 10px 0;
+    padding: 8px;
+    border: unset;
+    border-bottom: 2px solid #a43b0a; 
+    outline: none;
+}
+
+button{
+    padding: 8px;
+    background: #f5c2aa;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+}
+
+p{
+    margin: 8px;
+}
+
+.msg{
+    border: 1px solid #f5c2aa;
+    border-radius: 3px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
