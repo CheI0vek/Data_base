@@ -36,11 +36,5 @@
 				?>
 			</form>
 
-		<!--footer-->
-		<footer>
-    		<div class="copyright">
-        		2023 © Belova Anastasia & Popkova Dariya (group 438)
-    		</div>
-		</footer>
 	</body>
 </html>

@@ -22,7 +22,7 @@
 		
 		<!-- Список учителей с фото и контактами -->
 		<div class="intro">
-			<center class="intro_title" style="padding-top: 210px;"><h5>Наши учителя</h5></center>
+			<center class="intro_title" style="padding-top: 265px;"><h5>Наши учителя</h5></center>
 			<table align="center" border = "2" cellpadding="10">
 			
 			<tr>
@@ -56,5 +56,6 @@
 		</footer>
 
 		</div>
+			</body>
 
 </html>

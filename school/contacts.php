@@ -7,7 +7,7 @@
 	}
 	require_once ('include/connect.php');
 
-	$sql = "SELECT * FROM `teachers` INNER JOIN `school_administration` ON `teachers`.`Post_ID` = `school_administration`.`id_post` WHERE Post_ID = 1 OR Post_ID = 2 OR Post_ID = 3 OR Post_ID = 4";
+	$sql = "SELECT * FROM `teachers` INNER JOIN `school_administration` ON `teachers`.`Post_ID` = `school_administration`.`id_post` WHERE Post_ID = 1 OR Post_ID = 2 OR Post_ID = 3 OR Post_ID = 4 OR Post_ID=8";
 	$result = $connect->query($sql);
 ?>
 
@@ -20,11 +20,9 @@
 	</head>
 	<body>
 
-		<!--INTRO Список учителей с фото и контактами -->
 		<div class="intro">
-			<center class="intro_title"><h5>Администрация школы</h5></center>
+			<center class="intro_title" style="padding-top: 120px;"><h5>Администрация школы</h5></center>
 
-			<img scr='assets/Images/school.jpg'>
 
 			<table align="center" border = "2" cellpadding="10">
 			
@@ -50,8 +48,12 @@
 				?>
 
 			</table>
-
-			
+		
+			<p><center>
+			При возникновении каких-либо вопросов, можете 
+			обращаться по телефонам </br> приведенным в таблице, 
+			либо написать на почту школы School_base@school.base
+			</center></p>
 		</div>
 		
 		<!--footer-->

@@ -8,7 +8,7 @@
 	<body>
 		
 		<!--Header(Ссылки на другие страницы сайта)-->    
-		<header class = "header fixed"  id="header">
+		<header class = "header fixed">
 			<div class="container">
 				<div class="header_inner">
 					<div class="header_logo">
@@ -16,17 +16,16 @@
 						School_base
 					</div>
 
-					<nav class="nav" id="nav">
+					<nav class="nav">
+
 						<a class="nav_link" href="index.php">Главная страница</a>
-						<a class="nav_link" href="teachers.php">Наши учителя</a>
-						<a class="nav_link" href="students.php">Классы</a>
 						<a class="nav_link" href="contacts.php">Администрация школы</a>
 						<a class="nav_link" href="autorisation.php">Вход</a>
+
 					</nav>
 				</div>
 			</div>
 		</header>
 
-		
     </body>
 </html>

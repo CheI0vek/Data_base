@@ -18,14 +18,16 @@
 
 					<nav class="nav" id="nav">
 						<a class="nav_link" href="index.php">Главная страница</a>
-						<a class="nav_link" href="teachers.php">Наши учителя</a>
+						<a class="nav_link" href="teachers.php">Учителя</a>
 						<a class="nav_link" href="students.php">Классы</a>
-						<a class="nav_link" href="contacts.php">Администрация школы</a>
+						<a class="nav_link" href="courses.php">Кружки</a>
+						<a class="nav_link" href="contacts.php">Администрация</a>
+						<a class="nav_link" href="timetable.php">Расписание</a>
                         <a class="nav_link" href="profile.php">Мой профиль</a>
-						<a class="nav_link" href="include/logout.php">Выход</a>
 					</nav>
 				</div>
 			</div>
 		</header>
+		
     </body>
 </html>

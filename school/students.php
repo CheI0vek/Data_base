@@ -21,9 +21,14 @@
 	</head>
 	<body>
 			
-		<!-- Список учителей с фото и контактами -->
 		<div class="intro">
-			<center class="intro_title" style="padding-top: 780px;"><h5>Наши ученики</h5></center>
+			<center class="intro_title" style="padding-top: 880px;"><h5>Наши ученики</h5></center>
+
+            <center><form method="post" action="search_students.php">
+					<input type="text"  required="required"  placeholder="Введите запрос" name="search" >
+					<input type="submit" value='Поиск' name="submit">
+			</form></center><br>
+
 			<table align="center" border = "2" cellpadding="10">
 				
 				<tr>
@@ -46,13 +51,13 @@
 				?>
 
 			</table>
-			
-		<!--footer-->
-		<footer>
-    		<div class="copyright">
-        		2023 © Belova Anastasia & Popkova Dariya (group 438)
-    		</div>
-		</footer>
+
+			<!--footer-->
+			<footer>
+				<div class="copyright">
+					2023 © Belova Anastasia & Popkova Dariya (group 438)
+				</div>
+			</footer>
 		</div>
 
 </html>

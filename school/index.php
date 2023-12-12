@@ -6,9 +6,6 @@
 		include("profile_header.php");
 	}
 	require_once ('include/connect.php');
-
-	$sql = "SELECT * FROM `teachers` INNER JOIN `school_administration` ON `teachers`.`Post_ID` = `school_administration`.`id_post` WHERE Post_ID = 1 OR Post_ID = 2 OR Post_ID = 3 OR Post_ID = 4";
-	$result = $connect->query($sql);
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +17,6 @@
 	</head>
 	<body>
 
-		<!--INTRO Список учителей с фото и контактами -->
 		<div class="intro">
 			<center class="intro_title"><h4>Наша школа</h4></center>
 
@@ -30,7 +26,9 @@
 			</h3></p>
 		
 		</div>
+		
 		<img scr='assets/Images/school.jpg'>
+		
 		<!--footer-->
 		<footer>
     		<div class="copyright">

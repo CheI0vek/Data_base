@@ -36,6 +36,8 @@
 					<option value="2">Заместитель директора по УВР</option>
 					<option value="3">Заместитель директора по внеучебной деятельности</option>
 					<option value="4">Секретарь</option>
+					<option value="7">Родитель</option>
+					<option value="8">Завхоз</option>
 				</select>
 			<label>Пароль</label>
 			<input type="password" placeholder="Введите пароль" name="pass">
@@ -54,11 +56,5 @@
         	?>
 		</form>
 
-		<!--footer-->
-		<footer>
-    		<div class="copyright">
-        		2023 © Belova Anastasia & Popkova Dariya (group 438)
-    		</div>
-		</footer>
     </body>
 </html>
