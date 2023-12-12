@@ -24,16 +24,24 @@ body{
 /*autorisation*/
 .global_form{
     display: flex;
+    border: none;
     flex-direction: column;
+    width: 400px; 
+}
+
+.search_form{
+    margin: 0;
+    display: flex;
+    border: none;
     width: 400px; 
 }
 
 input{
     margin: 10px 0;
     padding: 8px;
-    border: unset;
+    /*border: unset;*/
     border-bottom: 2px solid #a43b0a; 
-    outline: none;
+    /*outline: none;*/
 }
 
 select{
